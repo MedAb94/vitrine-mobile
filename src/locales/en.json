@@ -1,0 +1,20 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "downloadApp": "Download our app",
+    "contact": "Contact us"
+  },
+  "home": {
+    "downloadNow": "Download Now"
+  },
+  "mailBox": {
+    "stay": "Stay informed",
+    "subscribe": "Subscribe to our mailbox",
+    "subscribeBtn": "Subscribe"
+  },
+  "footer": {
+    "address": "Address",
+    "links": "Quick links"
+  }
+}
