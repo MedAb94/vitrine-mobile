@@ -16,14 +16,13 @@
                     />
                     <br>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aliquid assumenda at commodi
-                        deserunt fugit inventore porro veritatis voluptatibus. Consequatur
+                       {{$t('navbar.atYourService')}}
                     </p>
                 </v-col>
                 <v-col cols="12" md="5" sm="12" class="mx-auto">
                     <v-row class="text-left">
                         <v-col cols="12">
-                            <h3 class="text-center text-md-left">
+                            <h3 class="text-center">
                                 {{$t('footer.links')}}
                             </h3>
                         </v-col>
@@ -32,18 +31,12 @@
                                 <router-link :to="{name: 'About'}" tag="a" class="mr-2">{{$t('navbar.about')}}
                                 </router-link>
                                 <br>
-                                <router-link :to="{name: 'Home'}" tag="a" class="mr-2">{{$t('navbar.downloadApp')}}
-                                </router-link>
-                                <br>
                                 <router-link :to="{name: 'Contact'}" tag="a">{{$t('navbar.contact')}}</router-link>
                             </div>
                         </v-col>
                         <v-col>
                             <div class="mt-2">
-                                <router-link :to="{name: 'About'}" tag="a" class="mr-2">Terms & Conditions
-                                </router-link>
-                                <br>
-                                <router-link :to="{name: 'Home'}" tag="a" class="mr-2">Privacy Policy
+                                <router-link :to="{name: 'Home'}" tag="a" class="mr-2">{{$t('footer.downloadApp')}}
                                 </router-link>
                                 <br>
                                 <router-link :to="{name: 'Contact'}" tag="a">FAQ</router-link>

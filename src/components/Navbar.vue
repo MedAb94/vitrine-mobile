@@ -40,21 +40,23 @@
                 dark
                 flat
         >
-            <div class="d-flex align-center">
+            <div :class="$vuetify.breakpoint.mdAndUp?'mt-14':'mt-1'">
                 <v-img
                         alt="Vuetify Logo"
                         class="shrink mr-2"
                         contain
                         src="../assets/logo.png"
                         transition="scale-transition"
-                        width="100"
+                        :width="$vuetify.breakpoint.smAndDown?100:240"
                 />
+                <div class="dark--text" v-if="$vuetify.breakpoint.mdAndUp">
+                    <strong>{{$t('navbar.atYourService')}}</strong>
+                </div>
+
             </div>
 
             <v-spacer></v-spacer>
             <div class="hidden-md-and-down">
-
-
                 <v-btn :to="{name: 'About'}"
                        text class="black--text"
                 >
@@ -101,6 +103,7 @@
 
 <script>
     import i18n from '../i18n'
+
     export default {
         name: 'Navbar',
         methods: {

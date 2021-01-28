@@ -1,12 +1,25 @@
 {
+  "appName": "TOWUGO",
   "navbar": {
     "home": "Home",
     "about": "About",
     "downloadApp": "Download our app",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "atYourService": "At your service all seasons"
   },
   "home": {
-    "downloadNow": "Download Now"
+    "downloadNow": "Download Now",
+    "title": "Do you need to have your vehicle repaired directly at your home, on the road or do you want a towing?",
+    "subtitle": " We find the service closest to your location, to assist you quickly.",
+    "howItWorks": {
+      "title": "How TOWUGO mobile app works?",
+      "text": "When an accident or a mechanical problem occurs with your automobile, on the road or at home, TOWUGO is there for you. Indeed, this new free mobile application locates the service company near the location of your breakdown and puts you in touch with it in order to be supported quickly.",
+      "services": "The services offered are:",
+      "serv1": "Towing support",
+      "serv2": "Mechanical support",
+      "text2": "In general, the mechanical support offered at any location on your vehicle includes repairs that do not require the complete lifting of the vehicle such as boosting the battery, changing tires, oil, alternator, brakes, discs, unlocking the doors , etc."
+    },
+      "send": "Send"
   },
   "mailBox": {
     "stay": "Stay informed",
@@ -14,6 +27,8 @@
     "subscribeBtn": "Subscribe"
   },
   "footer": {
+    "downloadApp": "DOWNLOAD THE MOBILE APPLICATION",
+    "think": "Think of TOWUGO when you need a towing, mechanical repair service at your home or on the road.",
     "address": "Address",
     "links": "Quick links"
   }

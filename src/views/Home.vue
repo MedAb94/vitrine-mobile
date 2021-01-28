@@ -5,15 +5,10 @@
                 <v-row class="fill-height align-center">
                     <v-col cols="12" md="7" class="text-center text-md-left">
                         <h1 class="display-1 font-weight-bold">
-                            <span class="primary--text">No Need </span> To Push <br> You Car <span
-                                class="primary--text">Anymore</span>
-                        </h1>
-                        <h1 class="display-1 font-weight-bold">
-                            <span class="primary--text">Download </span> Our App <span class="primary--text">Now</span>
+                            {{$t('home.title')}}
                         </h1>
                         <p>
-                            We find you a towing or an road mechanic specialist service instantly, even if you're in the
-                            middle of nowhere
+                            {{$t('home.subtitle')}}
                         </p>
                         <v-btn :to="{name: 'Download'}"
                                text class="primary"
@@ -30,20 +25,17 @@
         </section>
         <section class="light py-8">
             <v-container class="text-center text-md-left">
-                <h1 class="font-weight-bold"> What's<span class="primary--text">TOWUGO</span></h1>
+                <h1 class="font-weight-bold">{{$t('home.howItWorks.title')}}</h1>
                 <p class="text-justify">
-                    When you need a towing or a service of a mechanic on the road or at your house, TOWUGO is an app
-                    which connect you quickly with the service near you. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
-
+                    {{$t('home.howItWorks.text')}}
                 </p>
-                <v-img src="../assets/video.png" width="800px" class="mx-auto video">
-
-                </v-img>
+                <div class="font-weight-bold">{{$t('home.howItWorks.services')}}</div>
+                <ul>
+                    <li>{{$t('home.howItWorks.serv1')}}</li>
+                    <li>{{$t('home.howItWorks.serv2')}}</li>
+                </ul>
+                <div>{{$t('home.howItWorks.text2')}}</div>
+                <v-img src="../assets/video.png" width="800px" class="mx-auto video"/>
             </v-container>
         </section>
         <section class="dark">
@@ -52,14 +44,18 @@
                     <v-col cols="12" md="7" class="text-center text-md-left">
 
                         <h1 class="white--text font-weight-bold">
-                            DOWNLOAD OUR APPLICATION!
+                            {{$t('footer.downloadApp')}}
                         </h1>
                         <p class="white--text font-weight-bold">
-                            Download the <span class="primary--text">TOWUGO</span> App and get notifications when new
-                            auctions start or if there's any update to your items.
-
+                            {{$t('footer.think')}}
                         </p>
-                        <v-img></v-img>
+                        <v-container class="text-center">
+
+                                 <img src="../assets/App store.png" width="120" height="40">
+                                <img src="../assets/playStore.png" width="120" height="40">
+
+                        </v-container>
+
                     </v-col>
                     <v-col cols="12" md="5" class="text-center">
                         <v-img src="../assets/hero2.png" class="mx-auto" width="300px"/>
@@ -113,7 +109,7 @@
                                     large
                                     @click="validate"
                             >
-                                Validate
+                                {{$t('home.send')}}
                             </v-btn>
 
                         </v-form>

@@ -1,12 +1,26 @@
 {
+  "appName": "TOWUGO",
   "navbar": {
     "home": "Accueil",
     "about": "A Propos",
-    "downloadApp": "Telecharger notre app",
-    "contact": "Nous contacter"
+    "downloadApp": "Téléchargez notre app",
+    "contact": "Nous contacter",
+    "atYourService": "À votre service toutes les saisons"
+
   },
   "home": {
-    "downloadNow": "Telecharger maintenant"
+    "downloadNow": "Téléchargez maintenant",
+    "title": "Avez-vous besoin de faire réparer votre véhicule directement à votre domicile, sur la route ou d'un remorquage?",
+    "subtitle": "  Nous trouvons un service proche de votre emplacement, pour vous assister rapidement.",
+    "howItWorks": {
+      "title": "Comment fonctionne L’application mobile TOWUGO?",
+      "text": "Lorsque survient un accident ou un souci mécanique à votre automobile, sur la route ou à domicile, \nTOWUGO est là pour vous. En effet, cette nouvelle application mobile gratuite localise la compagnie \nde service proche de l’emplacement de votre panne et vous met en relations avec elle dans le but de vous prendre en charge rapidement. ",
+      "services": "Les services offerts sont :",
+      "serv1": "Support de remorquage",
+      "serv2": " Support mécanique ",
+      "text2": "De façon générale le support mécanique offert à n’importe quel emplacement de votre véhicule inclut les réparations ne \nnécessitant pas le levage complet du véhicule tel que le survoltage de la batterie, changement des pneus, huile, alternateur, freins,\n disques, déverrouillage des portières, etc."
+    },
+      "send": "Envoyer"
   },
   "mailBox": {
     "stay": "Restez informé",
@@ -14,6 +28,8 @@
     "subscribeBtn": "S'inscrire"
   },
   "footer": {
+    "downloadApp": "TÉLÉCHARGEZ L’APPLICATION MOBILE",
+    "think": "Pensez à TOWUGO lorsque vous avez besoin d’un service de remorquage, de réparation mécanique à\n votre domicile ou sur la route.",
     "address": "Adresse",
     "links": "Liens rapides"
   }
