@@ -14,7 +14,6 @@
                             class="mx-auto mb-0"
                             max-width="200px"
                     />
-                    <br>
                     <p>
                        {{$t('navbar.atYourService')}}
                     </p>
@@ -53,17 +52,10 @@
                             <v-icon color="white" class="mr-5">mdi-map-marker</v-icon>
                         </v-col>
                         <v-col cols="11">
-                            No: 100, Avenue Road, NewYork, United States
+                          3000 Boul. des Laurentides, Suite 12-203
                         </v-col>
                     </v-row>
-                    <v-row class="text-left">
-                        <v-col cols="1">
-                            <v-icon color="white" class="mr-5">mdi-phone</v-icon>
-                        </v-col>
-                        <v-col cols="11">
-                            +44 125 23 2563
-                        </v-col>
-                    </v-row>
+
                     <v-row class="text-left">
                         <v-col cols="1">
                             <v-icon color="white" class="mr-5">mdi-email-outline</v-icon>
@@ -77,18 +69,9 @@
         </v-card-text>
         <v-divider/>
 
-        <v-card-text class="white--text">
-            <v-row>
-                <v-col md="8">
+        <div class="white--text text-center">
                     @{{ new Date().getFullYear() }} — <strong>Towugo. All rights reserved</strong>
-                </v-col>
-                <v-col md="4">
-                    <v-icon color="white" class="mr-5">mdi-facebook</v-icon>
-                    <v-icon color="white" class="mr-5">mdi-instagram</v-icon>
-                    <v-icon color="white" class="mr-5">mdi-twitter</v-icon>
-                </v-col>
-            </v-row>
-        </v-card-text>
+        </div>
     </v-card>
 </template>
 <script>

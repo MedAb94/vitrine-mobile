@@ -41,6 +41,5 @@
     }
     .mailbox{
         background: rgb(0,119,251);
-        background: linear-gradient(90deg, rgba(0,119,251,1) 0%, rgba(0,119,251,1) 35%, rgb(32, 255, 156) 100%);
     }
 </style>

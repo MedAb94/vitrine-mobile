@@ -39,8 +39,9 @@
                 color="secondary"
                 dark
                 flat
+                height="120"
         >
-            <div :class="$vuetify.breakpoint.mdAndUp?'mt-14':'mt-1'">
+            <div :class="$vuetify.breakpoint.mdAndUp?'mt-1':'mt-1'">
                 <v-img
                         alt="Vuetify Logo"
                         class="shrink mr-2"
@@ -49,28 +50,33 @@
                         transition="scale-transition"
                         :width="$vuetify.breakpoint.smAndDown?100:240"
                 />
-                <div class="dark--text" v-if="$vuetify.breakpoint.mdAndUp">
-                    <strong>{{$t('navbar.atYourService')}}</strong>
+                <div class="dark--text text-center" v-if="$vuetify.breakpoint.mdAndUp">
+                    {{$t('navbar.atYourService')}}
                 </div>
 
             </div>
 
             <v-spacer></v-spacer>
             <div class="hidden-md-and-down">
-                <v-btn :to="{name: 'About'}"
+                <v-btn :to="{name: 'About'}" to="#about"
                        text class="black--text"
                 >
                     {{$t('navbar.about')}}
                 </v-btn>
 
-                <v-btn :to="{name: 'Download'}"
+                <v-btn :to="{name: 'Download'}" to="#download"
                        text class="primary"
                        rounded
                 >
                     {{$t('navbar.downloadApp')}}
                 </v-btn>
 
-                <v-btn
+                <v-btn to="#faq"
+                        text class="black--text"
+                >
+                    FAQ
+                </v-btn>
+              <v-btn to="#contact"
                         text class="black--text"
                 >
                     {{$t('navbar.contact')}}
