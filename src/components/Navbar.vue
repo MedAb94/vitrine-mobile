@@ -46,7 +46,7 @@
         color="secondary"
         dark
         flat
-        height="120"
+        :height="$vuetify.breakpoint.mdAndUp?'120':'50'"
     >
       <div :class="$vuetify.breakpoint.mdAndUp?'mt-1':'mt-1'">
         <v-img
