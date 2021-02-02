@@ -13,7 +13,8 @@
 
           </v-col>
           <v-col cols="12" md="5" class="text-center">
-            <v-img src="../assets/hero.png" class="mx-auto" style="max-width: 300px"/>
+            <v-img v-if="$i18n.locale==='fr'" src="../assets/screens/1fr.png" class="mx-auto" style="max-width: 250px"/>
+            <v-img v-if="$i18n.locale==='en'" src="../assets/screens/1en.png" class="mx-auto" style="max-width: 250px"/>
           </v-col>
         </v-row>
       </v-container>
@@ -30,7 +31,7 @@
           <li>{{ $t('home.howItWorks.serv2') }}</li>
         </ul>
         <div>{{ $t('home.howItWorks.text2') }}</div>
-        <v-img src="../assets/video.png" width="800px" class="mx-auto video"/>
+        <v-img src="../assets/screens/video.png" width="800px" class="mx-auto video"/>
       </v-container>
     </section>
     <section class="dark py-8" id="download">
@@ -53,7 +54,8 @@
 
           </v-col>
           <v-col cols="12" md="5" class="text-center">
-            <v-img src="../assets/hero2.png" class="mx-auto" width="300px"/>
+            <v-img v-if="$i18n.locale==='en'" src="../assets/screens/3en.png" class="mx-auto" max-width="200px"/>
+            <v-img v-if="$i18n.locale==='fr'" src="../assets/screens/3fr.png" class="mx-auto" max-width="200px"/>
           </v-col>
         </v-row>
       </v-container>
