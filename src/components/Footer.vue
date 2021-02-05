@@ -27,18 +27,19 @@
                         </v-col>
                         <v-col>
                             <div class="mt-2">
-                                <router-link :to="{name: 'About'}" tag="a" class="mr-2">{{$t('navbar.about')}}
-                                </router-link>
+                                <a href="#about" v-smooth-scroll class="mr-2">{{$t('navbar.about')}}
+                                </a>
                                 <br>
-                                <router-link :to="{name: 'Contact'}" tag="a">{{$t('navbar.contact')}}</router-link>
+                                <a href="#contact" v-smooth-scroll>{{$t('navbar.contact')}}</a>
                             </div>
                         </v-col>
                         <v-col>
                             <div class="mt-2">
-                                <router-link :to="{name: 'Home'}" tag="a" class="mr-2">{{$t('footer.downloadApp')}}
-                                </router-link>
+                                <a href="#download" v-smooth-scroll class="mr-2">{{$t('footer.downloadApp')}}
+                                </a>
                                 <br>
-                                <router-link :to="{name: 'Contact'}" tag="a">FAQ</router-link>
+                                <a href="#faq" v-smooth-scroll >FAQ</a> <br>
+                                <a href="/terms-and-conditions" >Terms</a>
                             </div>
                         </v-col>
                     </v-row>
